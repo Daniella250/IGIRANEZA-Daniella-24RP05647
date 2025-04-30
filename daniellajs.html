@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daniella IGIRANEZA</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            background-color: wheat;
+        }
+        fieldset {
+            background-color: burlywood;
+            padding: 20px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+
+    <script>
+        
+        const bgColors = ["aliceblue", "lightgoldenrodyellow", "lavender", "honeydew", "lightcyan"];
+        const textColors = ["black", "darkblue", "maroon", "green", "darkslategray"];
+        
+        let bgIndex = 0;
+        let textIndex = 0;
+
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = bgColors[bgIndex];
+            bgIndex = (bgIndex + 1) % bgColors.length;
+        }
+
+        function changeTextColor() {
+            document.body.style.color = textColors[textIndex];
+            textIndex = (textIndex + 1) % textColors.length;
+        }
+    </script>
+</head>
+
+<body>
+
+   
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+    <button onclick="changeTextColor()">Change Text Color</button>
+
+    <fieldset>
+        <img src="dani.jpg" width="150px" height="100px">
+        <h3><i><b>Daniella IGIRANEZA</b></i></h3>
+        <hr>
+        <p>----------------------------🙌🙌🙌🙌🙌🙌🙌🙌🙌🙌----------------------------</p>
+    </fieldset>
+
+    <table>
+        <tr>
+            <td>
+                <h2><b><code>♦CONTACT</code></b></h2>
+                <h3>
+                    <code>📞 +250791030409</code><br>
+                    <code>📧 igiranezadaniella09@gmail.com</code>
+                </h3>
+
+                <h2><b><code>♦SKILLS</code></b></h2>
+                <h4>
+                    <p>✔ Web application development</p>
+                    <p>✔ Web design</p>
+                    <p>✔ Problem solving</p>
+                    <p>✔ Programming: HTML, CSS, JavaScript, Python</p>
+                    <p>✔ Critical thinking</p>
+                    <p>✔ Effective communication</p>
+                    <p>✔ Teamwork spirit</p>
+                </h4>
+
+                <h2><b><code>♦QUALIFICATIONS AND CERTIFICATIONS</code></b></h2>
+                <h4>
+                    <p>✔ A2 Certificate Diploma in Software Development</p>
+                    <p>✔ Internship Certificate (Software Development)</p>
+                    <p>✔ AERG Certificate</p>
+                </h4>
+            </td>
+
+            <td>
+                <h2><b><code>♦SUMMARY</code></b></h2>
+                <code>
+                    I'm a hardworking person who is interested in researching and coming up with new ideas.<br>
+                    I'm ready to use the knowledge I have to enhance an organization.<br>
+                    I have strong teamwork skills and excellent interpersonal communication.<br>
+                    I learn quickly and adapt easily to new environments professionally and socially.
+                </code>
+
+                <h2><b><code>♦WORK EXPERIENCE</code></b></h2>
+                <p>✔ 2-month Internship at KIGALI APPLINE LTD (2021)</p>
+                <p>✔ 2-month Internship at NOVA (2022)</p>
+
+                <h2><b><code>♦REFEREES</code></b></h2>
+                <p>✔ Anastase MUKESHIMANA</p>
+                <p>✔ Teacher at ESA BIRAMBO Secondary School</p>
+                <p>✔ Tel: 0783688469</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
